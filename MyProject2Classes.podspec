@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "[li]" => "[501713182@qq.com]" }
   s.source       = { :git => "https://github.com/islilyhuang/MyProject1.git", :tag => s.version.to_s }
-  s.source_files  = "MyProject2Classes"
+  s.source_files = 'MyProject2Classes/**/*.{h,m}'
+
   s.frameworks = 'Foundation', 'UIKit'
   s.platform     = :ios, '12.0'
 
